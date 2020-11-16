@@ -10,9 +10,16 @@ int main(){
 			printf("%d ", (a % 2) & 1);
 			a = a >> 2;
 		}
-		
 	}
-	
+	printf("Å¼ÊýÎ»£º");
+	while (a){
+		for (int i = 1; i < a; i++){
+			printf("%d ", (a % 2) & 1);
+			a = a >> 2;
+		}
+	}
+
+
 	system("pause");
 	return 0;
 
